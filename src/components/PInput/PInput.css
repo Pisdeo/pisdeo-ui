@@ -1,0 +1,32 @@
+.p-input {
+    font-size: var(--element-font-size);
+    color: var(--element-text-color);
+    background-color: var(--element-bg-color);
+    border-style: none;
+    border-radius: 5px;
+    padding: var(--element-padding);
+    transition: 0.2s;
+}
+
+.p-input.normal {
+    --element-padding: 7px 11px;
+    --element-font-size: 13px;
+}
+
+.p-input.small {
+    --element-padding: 5px 9px;
+    --element-font-size: 11px;
+}
+
+.p-input.large {
+    --element-padding: 9px 13px;
+    --element-font-size: 15px;
+}
+
+.p-input:hover {
+    background-color: var(--on-hover-bg-color);
+}
+
+.p-input:active {
+    background-color: var(--on-focus-bg-color);
+}

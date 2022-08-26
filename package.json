@@ -1,0 +1,11 @@
+{
+  "name": "pisdeo-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:euph0r1a15/pisdeo-ui.git",
+  "author": "Amatke31 <2352595327@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^3.2.37"
+  }
+}
