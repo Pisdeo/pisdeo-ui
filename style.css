@@ -55,7 +55,8 @@
     border-style: none;
     border-radius: 8px;
     padding: var(--element-padding);
-    transition: background-color 0.2s;
+    transition-duration: 0.2s;
+    transition-property: background-color, box-shadow;
 }
 
 .p-btn:hover,
