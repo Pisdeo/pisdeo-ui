@@ -7,16 +7,16 @@
     --main-bg-color: #eeeeee;
     --element-text-color: #101010;
     --element-bg-color: #dddddd;
-    --on-hover-bg-color: #d8d8d8;
-    --on-focus-bg-color: #cccccc;
+    --element-hover-bg-color: #d8d8d8;
+    --element-focus-bg-color: #cccccc;
 }
 
 .dark {
     --main-bg-color: #111111;
     --element-text-color: #efefef;
     --element-bg-color: #333333;
-    --on-hover-bg-color: #393939;
-    --on-focus-bg-color: #444444;
+    --element-hover-bg-color: #393939;
+    --element-focus-bg-color: #444444;
 }
 
 * {
@@ -62,13 +62,13 @@
 .p-btn:hover,
 .p-input:hover,
 .p-textarea:hover {
-    background-color: var(--on-hover-bg-color);
+    background-color: var(--element-hover-bg-color);
 }
 
 .p-btn:active,
 .p-input:focus,
 .p-textarea:focus {
-    background-color: var(--on-focus-bg-color);
+    background-color: var(--element-focus-bg-color);
 }
 
 .p-input:focus-visible,
@@ -82,12 +82,12 @@
 
 .p-btn.text {
     --element-bg-color: transparent;
-    --on-hover-bg-color: #d8d8d8aa;
-    --on-focus-bg-color: #ccccccaa;
+    --element-hover-bg-color: #d8d8d8aa;
+    --element-focus-bg-color: #ccccccaa;
 }
 
 .dark .p-btn.text {
     --element-bg-color: transparent;
-    --on-hover-bg-color: #393939aa;
-    --on-focus-bg-color: #444444aa;
+    --element-hover-bg-color: #393939aa;
+    --element-focus-bg-color: #444444aa;
 }
